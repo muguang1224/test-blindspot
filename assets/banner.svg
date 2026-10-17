@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="test-blindspot">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1020"/>
+      <stop offset="0.6" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="#334155" stroke-width="1" opacity="0.25"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)" opacity="0.35"/>
+  <rect x="0" y="0" width="6" height="300" fill="url(#accent)"/>
+  
+  <rect x="64" y="70" width="152" height="152" rx="36" fill="#111827" stroke="#818CF8" stroke-width="3"/>
+  <circle cx="140" cy="146" r="48" fill="none" stroke="#818CF8" stroke-width="4"/>
+  <circle cx="140" cy="146" r="27" fill="none" stroke="#818CF8" stroke-width="3" stroke-dasharray="6 7"/>
+  <circle cx="140" cy="146" r="7" fill="#22D3EE"/>
+  <path d="M140 84 L140 106 M140 186 L140 208 M78 146 L100 146 M180 146 L202 146" stroke="#22D3EE" stroke-width="4" stroke-linecap="round"/>
+  <text x="262" y="124" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#F8FAFC">test-blindspot</text>
+  <text x="264" y="166" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="21" fill="#CBD5E1">See which public symbols your tests never mention.</text>
+  <rect x="262.0" y="206" width="69.8" height="34" rx="17" fill="#0F172A" stroke="#334155"/><text x="296.9" y="228" text-anchor="middle" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#94A3B8">4 rules</text><rect x="343.8" y="206" width="121.6" height="34" rx="17" fill="#0F172A" stroke="#334155"/><text x="404.6" y="228" text-anchor="middle" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#94A3B8">coverage-aware</text><rect x="477.4" y="206" width="99.4" height="34" rx="17" fill="#0F172A" stroke="#334155"/><text x="527.1" y="228" text-anchor="middle" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#94A3B8">Python 3.9+</text>
+  <text x="1160" y="96" text-anchor="end" font-family="JetBrains Mono, Consolas, monospace" font-size="64" font-weight="700" fill="#818CF8" opacity="0.09">CLI</text>
+</svg>
